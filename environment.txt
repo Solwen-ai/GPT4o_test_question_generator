@@ -1,0 +1,19 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - python-dotenv
+    - openai
+    - langchain
+    - langchain-community
+    - python-docx
+    - PyPDF2
+    - python-pptx
+    - pandas
+    - openpyxl
+    - tiktoken
+    - unstructured[all-docs]
